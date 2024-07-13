@@ -80,13 +80,13 @@
  * and might also include required system header files to define them.
  */
 
-#include <ares_build.h>
+#include "ares_build.h"
 
 /*
  * Compile time sanity checks must also be done when building the library.
  */
 
-#include <ares_rules.h>
+#include "ares_rules.h"
 
 /* ================================================================= */
 /* No system header file shall be included in this file before this  */
